@@ -17,6 +17,12 @@ BudMachine имеет два самостоятельных языковых к�
 
 Любой URL с префиксом `/ua/` относится к украинской версии сайта.
 
+### Важное замечание по sitemap
+
+Предоставленный пользователем sitemap от 8 августа 2026 года содержит **64 URL, все без префикса `/ua/`**. Поэтому ниже полностью заполнен реестр RU-страниц, подтверждённых этим sitemap.
+
+Наличие украинского каталога при этом сохраняется как отдельное правило системы. URL UA не следует придумывать или массово переносить из RU: для полного UA-реестра нужен отдельный sitemap/выгрузка украинского каталога.
+
 ### Правило языкового соответствия
 
 - RU-статья по умолчанию ссылается на RU-страницы.
@@ -68,43 +74,104 @@ BudMachine имеет два самостоятельных языковых к�
 
 ## Реестр страниц — RU
 
-| URL | Название | Кластер | Тип | Входящие ссылки | Исходящие ссылки | Примечание |
+Все 64 URL ниже взяты из предоставленного sitemap. Названия для URL, где sitemap не содержит title, приведены как рабочие названия на основе адреса; перед публикацией нового материала при необходимости их можно уточнить по самой странице.
+
+| URL | Рабочее название | Кластер | Тип | Входящие ссылки | Исходящие ссылки | Примечание |
 |---|---|---|---|---:|---:|---|
-| https://budmachine.com.ua/ | BudMachine — русская версия | Общий | Главная | — | — | RU-каталог |
-| https://budmachine.com.ua/plaster | Машинная штукатурка | Штукатурка | Коммерческая страница | — | — | Основная RU-страница услуги |
+| https://budmachine.com.ua/ | Главная | Общий | Главная | — | — | RU-каталог |
+| https://budmachine.com.ua/prices | Цены | Общий | Информационная | — | — | Коммерческий контекст; использовать только когда переход полезен |
+| https://budmachine.com.ua/vacancies | Вакансии | Компания | Служебная | — | — | Не использовать в обычных информационных статьях без причины |
 | https://budmachine.com.ua/blog | Блог | Общий | Навигационная | — | — | Главная RU-страница блога |
-| https://budmachine.com.ua/blog/stukaturka-po-maakah-ci-bezmaacna-so-krase-stukaturka-po-maakam-ili-bez-maakov-cto-lucse | Штукатурка по маякам или без маяков: что лучше | Технология штукатурки | Статья | — | — | Материалы о выборе технологии и выравнивании |
-| https://budmachine.com.ua/blog/stukaturka-sten-po-maakam-svoimi-rukami | Штукатурка стен по маякам своими руками | Технология штукатурки | Статья | — | — | Материалы о маяках и выравнивании |
+| https://budmachine.com.ua/paint | Покраска машинным способом | Покраска | Коммерческая | — | — | Основная страница услуги |
+| https://budmachine.com.ua/whiten | Побелка машинным способом | Побелка | Коммерческая | — | — | Основная страница услуги |
+| https://budmachine.com.ua/waterproof | Гидроизоляция машинным способом | Гидроизоляция | Коммерческая | — | — | Основная страница услуги |
+| https://budmachine.com.ua/plaster | Машинная штукатурка | Штукатурка | Коммерческая | — | — | Основная RU-страница услуги |
+| https://budmachine.com.ua/elektromontag | Электромонтаж | Электромонтаж | Коммерческая | — | — | Смежная услуга |
+| https://budmachine.com.ua/demontag | Демонтажные работы | Демонтаж | Коммерческая | — | — | Смежная услуга |
+| https://budmachine.com.ua/paint/pokraska-bezvozdusnaa | Покраска безвоздушным способом | Покраска | Коммерческая | — | — | Подкластер безвоздушной покраски |
+| https://budmachine.com.ua/paint/pokraska-krysi | Покраска крыши | Покраска | Коммерческая | — | — | Кровельные работы |
+| https://budmachine.com.ua/paint/pokraska-sten | Покраска стен | Покраска | Коммерческая | — | — | Отделка стен |
+| https://budmachine.com.ua/paint/pokraska-potolkov | Покраска потолков | Покраска | Коммерческая | — | — | Отделка потолков |
+| https://budmachine.com.ua/paint/pokraska-zabora | Покраска забора | Покраска | Коммерческая | — | — | Наружные работы |
+| https://budmachine.com.ua/paint/pokraska-metallokonstrukciy | Покраска металлоконструкций | Покраска | Коммерческая | — | — | Металлоконструкции |
+| https://budmachine.com.ua/paint/pokraska-kraskopultom | Покраска краскопультом | Покраска | Коммерческая | — | — | Оборудование/технология |
+| https://budmachine.com.ua/paint/ocistka-mojka-pokraska-krovli-krysi | Очистка, мойка и покраска кровли | Покраска | Коммерческая | — | — | Кровля |
+| https://budmachine.com.ua/paint/pokraska-fasada | Покраска фасада | Покраска | Коммерческая | — | — | Фасадные работы |
+| https://budmachine.com.ua/whiten/pobelka-pomeshcheniy | Побелка помещений | Побелка | Коммерческая | — | — | Отделка помещений |
+| https://budmachine.com.ua/whiten/remont-posle-pozhara | Ремонт после пожара | Побелка/ремонт | Коммерческая | — | — | Специализированная услуга |
+| https://budmachine.com.ua/whiten/pobelka-sten | Побелка стен | Побелка | Коммерческая | — | — | Отделка стен |
+| https://budmachine.com.ua/whiten/pobelka-kuporosom | Побелка купоросом | Побелка | Коммерческая | — | — | Специализированная технология |
+| https://budmachine.com.ua/whiten/pobelka-potolkov | Побелка потолков | Побелка | Коммерческая | — | — | Отделка потолков |
+| https://budmachine.com.ua/whiten/pobelka-izvestyu | Побелка известью | Побелка | Коммерческая | — | — | Материал/технология |
+| https://budmachine.com.ua/whiten/pobelka-melom | Побелка мелом | Побелка | Коммерческая | — | — | Материал/технология |
+| https://budmachine.com.ua/waterproof/gidroizolyaciya-terrasy-balkona-garazha | Гидроизоляция террасы, балкона и гаража | Гидроизоляция | Коммерческая | — | — | Наружные/вспомогательные конструкции |
+| https://budmachine.com.ua/waterproof/gidroizolyaciya-krovli | Гидроизоляция кровли | Гидроизоляция | Коммерческая | — | — | Кровля |
+| https://budmachine.com.ua/waterproof/gidroizolyaciya-osb-osb-dsp-fanery | Гидроизоляция OSB, ДСП и фанеры | Гидроизоляция | Коммерческая | — | — | Листовые материалы |
+| https://budmachine.com.ua/waterproof/gidroizolyaciya-fundamenta | Гидроизоляция фундамента | Гидроизоляция | Коммерческая | — | — | Фундамент |
+| https://budmachine.com.ua/plaster/shtukaturka-sten | Штукатурка стен | Штукатурка | Коммерческая | — | — | Основная целевая страница для материалов о стенах |
+| https://budmachine.com.ua/plaster/stazka-pola | Стяжка пола | Стяжка | Коммерческая | — | — | Смежный отделочный кластер |
+| https://budmachine.com.ua/plaster/spaklevka-sten | Шпаклевка стен | Шпаклевка | Коммерческая | — | — | Следующий этап после штукатурки |
+| https://budmachine.com.ua/plaster/spaklevka-potolkov | Шпаклевка потолков | Шпаклевка | Коммерческая | — | — | Отделка потолков |
+| https://budmachine.com.ua/plaster/metalloplastikovie-okna | Металлопластиковые окна | Окна | Коммерческая | — | — | Смежная услуга |
+| https://budmachine.com.ua/plaster/shtukaturka-potolkov | Штукатурка потолков | Штукатурка | Коммерческая | — | — | Отделка потолков |
+| https://budmachine.com.ua/plaster/shtukaturka-bolshih-obyomov | Штукатурка больших объёмов | Штукатурка | Коммерческая | — | — | Крупные объёмы |
+| https://budmachine.com.ua/plaster/malyarnye-raboty | Малярные работы | Малярные работы | Коммерческая | — | — | Смежный отделочный кластер |
+| https://budmachine.com.ua/elektromontag/uslugi-elektrika-v-kieve | Услуги электрика в Киеве | Электромонтаж | Коммерческая | — | — | Региональная услуга |
+| https://budmachine.com.ua/demontag/almaznaya-rezka-betona | Алмазная резка бетона | Демонтаж | Коммерческая | — | — | Подготовительные/демонтажные работы |
+| https://budmachine.com.ua/blog/pokraska-sten-ili-oboi-vybiraem-optimalnyj-sposob-finalnoj-otdelki-pomesenia | Покраска стен или обои: выбор способа финальной отделки | Покраска | Статья | — | — | Выбор финишной отделки |
+| https://budmachine.com.ua/blog/podgotovka-sten-pod-pokrasku | Подготовка стен под покраску | Покраска | Статья | — | — | Подготовка основания |
+| https://budmachine.com.ua/blog/pokraska-sten-ili-oboi-cto-lucse-2 | Покраска стен или обои: что лучше | Покраска | Статья | — | — | Выбор финишной отделки |
+| https://budmachine.com.ua/blog/farbuvanna-dahu-bezpovitranim-aparatom | Фарбування даху безповітряним апаратом | Покраска | Статья | — | — | Статья о покраске кровли |
+| https://budmachine.com.ua/blog/ak-pravilno-vibrati-farbu-dla-farbuvanna-dahu | Як правильно вибрати фарбу для фарбування даху | Покраска | Статья | — | — | Выбор материала для кровли |
+| https://budmachine.com.ua/blog/pokraska-zeleznodoroznyh-vagonov-bezvozdusnym-sposobom | Покраска железнодорожных вагонов безвоздушным способом | Покраска | Статья | — | — | Промышленная покраска |
+| https://budmachine.com.ua/blog/farbuvanna-metalokonstrukcij-bezpovitrannim-aparatom | Фарбування металоконструкцій безповітряним апаратом | Покраска | Статья | — | — | Промышленная покраска |
+| https://budmachine.com.ua/blog/nuzno-li-stukaturit-betonnye-steny-ili-net | Нужно ли штукатурить бетонные стены или нет | Штукатурка | Статья | — | — | Подготовка бетонного основания |
+| https://budmachine.com.ua/blog/ustanovka-maakov-pod-stukaturku-2 | Установка маяков под штукатурку | Штукатурка | Статья | — | — | Технология выравнивания |
+| https://budmachine.com.ua/blog/cto-lucse-masinnaa-stukaturka-ili-rucnaa | Что лучше: машинная штукатурка или ручная | Штукатурка | Статья | — | — | Сравнение технологий |
+| https://budmachine.com.ua/blog/tehnologia-masinnoj-stukaturki-2 | Технология машинной штукатурки | Штукатурка | Статья | — | — | Базовая технология |
+| https://budmachine.com.ua/blog/stukaturka-sten-v-kvartire | Штукатурка стен в квартире | Штукатурка | Статья | — | — | Жилые помещения |
+| https://budmachine.com.ua/blog/stukaturka-dla-vnutrennih-rabot---kakoj-material-lucse-vybrat | Штукатурка для внутренних работ: какой материал выбрать | Штукатурка | Статья | — | — | Выбор материала |
+| https://budmachine.com.ua/blog/stukaturka-sten-po-maakam-svoimi-rukami | Штукатурка стен по маякам своими руками | Штукатурка | Статья | — | — | Маяки и выравнивание |
+| https://budmachine.com.ua/blog/kak-pravilno-vybirat-podradcika-dla-stukaturnyh-rabot | Как правильно выбирать подрядчика для штукатурных работ | Штукатурка | Статья | — | — | Выбор исполнителя |
+| https://budmachine.com.ua/blog/masinni-stancii-dla-stukaturki-perevagi-ta-nedoliki | Машинные станции для штукатурки: преимущества и недостатки | Штукатурка | Статья | — | — | Оборудование |
+| https://budmachine.com.ua/blog/stukaturka-potolka-gipsom-tehnologii-preimusestva-i-sovety-dla-uspesnogo-primenenia | Штукатурка потолка гипсом: технология, преимущества и советы | Штукатурка | Статья | — | — | Потолки и гипсовые составы |
+| https://budmachine.com.ua/blog/ak-formuetsa-cina-na-masinnu-stukaturku-primisen | Як формується ціна на машинну штукатурку приміщень | Штукатурка | Статья | — | — | Стоимость |
+| https://budmachine.com.ua/blog/aki-normi-dopusku-rivnosti-stin-pri-masinnij-stukaturci | Які норми допуску рівності стін при машинній штукатурці | Штукатурка | Статья | — | — | Нормы и контроль качества |
+| https://budmachine.com.ua/blog/aki-potribni-instrumenti-dla-masinnoi-stukaturki-kakie-neobhodimy-instrumenty-dla-masinnoj-stukaturki | Какие инструменты необходимы для машинной штукатурки | Штукатурка | Статья | — | — | Инструменты |
+| https://budmachine.com.ua/blog/gipsova-sumis-dla-masinnogo-nanesenna | Гипсовая смесь для машинного нанесения | Штукатурка | Статья | — | — | Материалы |
+| https://budmachine.com.ua/blog/ci-mozna-kleiti-spaleri-pisla-masinnoi-stukaturki-bez-spakluvanna | Чи можна клеїти шпалери після машинної штукатурки без шпаклювання | Штукатурка | Статья | — | — | Следующий этап отделки |
+| https://budmachine.com.ua/blog/so-take-povna-geometria-primisenna-pid-cas-stukaturnih-robit-i-ci-varto-ce-robiti | Що таке повна геометрія приміщення під час штукатурних робіт і чи варто це робити | Штукатурка | Статья | — | — | Геометрия помещений |
+| https://budmachine.com.ua/blog/cementno-vapnana-sumis-dla-masinnogo-nanesenna-stukaturki | Цементно-вапняна суміш для машинного нанесення штукатурки | Штукатурка | Статья | — | — | Материалы |
 
 ## Реестр страниц — UA
 
-| URL | Название | Кластер | Тип | Входящие ссылки | Исходящие ссылки | Примечание |
-|---|---|---|---|---:|---:|---|
-| https://budmachine.com.ua/ua | BudMachine — українська версія | Общий | Главная | — | — | UA-каталог |
-| https://budmachine.com.ua/ua/plaster | Штукатурка машинним способом | Штукатурка | Коммерческая страница | — | — | Основная UA-страница услуги |
-| https://budmachine.com.ua/ua/plaster/shtukaturka-sten | Штукатурка стін машинним способом | Штукатурка | Коммерческая страница | — | — | Услуга машинной штукатурки стен |
-| https://budmachine.com.ua/ua/plaster/shtukaturka-bolshih-obyomov | Штукатурка великих об'ємів машинним способом | Штукатурка | Коммерческая страница | — | — | Услуга для больших объёмов |
-| https://budmachine.com.ua/ua/plaster/stazka-pola | Машинна стяжка підлоги | Стяжка | Коммерческая страница | — | — | Смежный строительный кластер |
-| https://budmachine.com.ua/ua/plaster/malyarnye-raboty | Шпаклювання стін та стель машинним способом | Шпаклёвка | Коммерческая страница | — | — | Смежный отделочный кластер |
-| https://budmachine.com.ua/ua/blog | Блог | Общий | Навигационная | — | — | Главная UA-страница блога |
-| https://budmachine.com.ua/ua/blog/tehnologia-rabot-po-podgotovke-kirpicnoj-steny-dla-ostukaturivania | Технологія робіт з підготовки цегляної стіни для оштукатурювання | Подготовка основания | Статья | — | — | Материалы о подготовке кирпичного основания |
-| https://budmachine.com.ua/ua/blog/stukaturka-sten-po-maakam-svoimi-rukami | Штукатурка стін по маяках своїми руками | Технология штукатурки | Статья | — | — | Материалы о маяках и выравнивании |
+В предоставленном sitemap URL `/ua/` не обнаружены. Этот раздел не заполняется предположительными URL.
 
-## Тематические кластеры
+После получения отдельного UA sitemap добавить страницы сюда без копирования RU-адресов по аналогии.
 
-### RU — штукатурка
+## Приоритетные связи для кластера «Штукатурка» — RU
 
-- `/plaster` — коммерческая страница машинной штукатурки.
-- `/blog/stukaturka-po-maakah-ci-bezmaacna-so-krase-stukaturka-po-maakam-ili-bez-maakov-cto-lucse` — выбор технологии.
-- `/blog/stukaturka-sten-po-maakam-svoimi-rukami` — маяки и выравнивание.
+Для будущих статей о штукатурке Master Prompt в первую очередь должен рассматривать тематически близкие страницы из этого пула:
 
-### UA — штукатурка
+- `/plaster` — основная услуга машинной штукатурки;
+- `/plaster/shtukaturka-sten` — машинная штукатурка стен;
+- `/plaster/shtukaturka-bolshih-obyomov` — большие объёмы;
+- `/blog/tehnologia-masinnoj-stukaturki-2` — технология;
+- `/blog/cto-lucse-masinnaa-stukaturka-ili-rucnaa` — машинная или ручная;
+- `/blog/stukaturka-sten-v-kvartire` — квартира;
+- `/blog/stukaturka-dla-vnutrennih-rabot---kakoj-material-lucse-vybrat` — материалы;
+- `/blog/gipsova-sumis-dla-masinnogo-nanesenna` — гипсовая смесь;
+- `/blog/cementno-vapnana-sumis-dla-masinnogo-nanesenna-stukaturki` — цементно-известковая смесь;
+- `/blog/nuzno-li-stukaturit-betonnye-steny-ili-net` — бетонное основание;
+- `/blog/ustanovka-maakov-pod-stukaturku-2` — маяки;
+- `/blog/stukaturka-sten-po-maakam-svoimi-rukami` — выравнивание;
+- `/blog/aki-normi-dopusku-rivnosti-stin-pri-masinnij-stukaturci` — нормы ровности;
+- `/blog/so-take-povna-geometria-primisenna-pid-cas-stukaturnih-robit-i-ci-varto-ce-robiti` — геометрия;
+- `/blog/ci-mozna-kleiti-spaleri-pisla-masinnoi-stukaturki-bez-spakluvanna` — следующий этап отделки;
+- `/plaster/spaklevka-sten` — шпаклёвка стен;
+- `/plaster/shtukaturka-potolkov` — штукатурка потолков.
 
-- `/ua/plaster` — основная услуга машинной штукатурки.
-- `/ua/plaster/shtukaturka-sten` — машинная штукатурка стен.
-- `/ua/plaster/shtukaturka-bolshih-obyomov` — большие объёмы.
-- `/ua/blog/tehnologia-rabot-po-podgotovke-kirpicnoj-steny-dla-ostukaturivania` — подготовка основания.
-- `/ua/blog/stukaturka-sten-po-maakam-svoimi-rukami` — маяки и выравнивание.
+Для статьи «Можно ли штукатурить стены летом в жару?» наиболее естественными кандидатами являются материалы о технологии машинной штукатурки, выборе материала, гипсовых и цементно-известковых смесях, бетонном основании и последующей отделке. Коммерческую `/plaster` использовать только при естественном переходе к услуге.
 
 ## Реестр исходящих связей
 
@@ -142,8 +209,12 @@ BudMachine имеет два самостоятельных языковых к�
 4. обновить количество входящих ссылок целевых страниц;
 5. проверить баланс ссылок внутри соответствующего языкового и тематического кластера.
 
-Google рекомендует использовать логичную структуру сайта, ссылаться на важные страницы из релевантных материалов и применять краткий описательный anchor text. Эти принципы используются как ориентир при ведении карты.
+## Источник данных
 
-## Источник принципов
+- Основной источник текущего реестра RU: sitemap, предоставленный пользователем, созданный 08.08.2026.
+- В sitemap найдено 64 URL.
+- Все 64 URL относятся к RU-каталогу; URL с `/ua/` в предоставленной выгрузке отсутствуют.
+
+## Источник принципов перелинковки
 
 Google Search Central: рекомендации по внутренним ссылкам, структуре сайта и anchor text.
